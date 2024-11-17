@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 250px;
+    /* Customize width */
+    height: 100vh;
+    /* Full vertical height */
+    background-color: #333;
+    /* Specific grey background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar div {
+    color: wheat;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    background-color: #333;
+}
+
+hr {
+    width: 80%;
+    /* Adjust width as needed */
+    border: none;
+    border-top: 1px solid #555;
+    /* Thin grey line for professionalism */
+    margin: 10px 0;
+    /* Space around lines */
+}
+
+.main-con {
+    color: wheat;
+}
+
+.link {
+    color: aliceblue;
+    background-color: #333;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.webbody {
+    color: rgb(94, 131, 163);
+    padding-left: 20%;
+    margin-top: 10%;
+    padding-right: 30%;
+    justify-content: left;
+    font-size: 20px;
+    
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 50;
+    padding: 5px;
+    color: rgb(255, 249, 249);
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    white-space: nowrap;
+    background: red;
+    transition: all 1s ease;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+/* .intro{
+    justify-content: baseline;
+} */
+#para1,
+#heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    text-align: justify;
+}
+
+.name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(212, 196, 196);
+}
+
+img {
+    margin-left: 120%;
+    width: 200px;
+    margin-top: -25%;
+}
+
+section {
+    align-items: center;
+}
+
+.para2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#abt {
+    color: rgb(94, 131, 163);
+    padding-left: 20%;
+    margin-top: 10%;
+    padding-right: 8%;
+    font-size: 20px;
+    justify-content: end;
+    text-align: justify;
+    height: 100vh;
+}
+
+h1 {
+    color: green;
+    font-family: cursive;
+
+}
+
+#home {
+    height: 100vh;
+    align-content: center;
+}
+
+h5 {
+    color: wheat;
+    font-family: cursive;
+}
+
+#list {
+    color: rgb(94, 131, 163);
+    font-family: cursive;
+}
+
+#bar {
+    width: 600px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.linkgrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+#abt {
+    align-content: center;
+}
+
+#bar-css {
+    width: 400px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#bar-my {
+    width: 450px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#bar-js {
+    width: 300px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#edu-grp {
+    display: flex;
+    justify-content: space-between;
+}
+
+#para3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    color: wheat;
+    text-align: justify;
+}
+
+.btn1 {
+    font-size: 15px;
+    font-weight: 550;
+    padding: 9px;
+    color: rgb(9, 9, 9);
+    border-radius: 5px;
+    background: white;
+    transition: all 1s ease;
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    margin-right: -50%;
+}
+
+.btn1:hover {
+    background-color: rgb(129, 18, 18);
+    color: rgb(221, 219, 219);
+}
+
+#edu {
+    height: 100vh;
+    align-content: center;
+}
+
+#img1:hover {
+    background-color: red;
+}
+
+
+.imgn {
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.imgn:hover {
+    box-shadow: 0 0 15px 5px rgb(197, 23, 23);
+    /* White shadow effect */
+    transform: scale(1.05);
+    /* Slightly enlarges the image */
+}
+
+#certi {
+    align-content: center;
+    height: 100vh;
+}
+#cer{
+    align-content: center;
+    height: 100vh;
+}
+
+#con {
+    height: 100vh;
+    align-content: center;
+}
+
+#phone {
+    text-decoration: none;
+    color: white;
+}
+
+.paran {
+    color: white;
+    text-decoration: none;
+}
+
+#linkd {
+    color: white;
+    text-decoration: none;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .map {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   
+} */
+ .link:hover{
+    background-color: rgb(207, 202, 201);
+    color: black;
+ }
